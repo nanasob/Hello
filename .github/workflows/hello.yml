@@ -5,10 +5,9 @@ on:
 
 jobs:
     Deploy:
-    needs: Test
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy code
-        run: |
-          echo "Deploying code"
-          echo "Deployment Successful"
+      runs-on: ubuntu-latest
+      steps:
+        - name: Deploy code
+          run: |
+            echo "Deploying code"
+            echo "Deployment Successful"
